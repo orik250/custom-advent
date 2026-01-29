@@ -3,7 +3,7 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class customPartnerQuestion {
+public class PartnerSolution {
     public static void main(String[] args){
         ArrayList<String> lines = getFileData("src/data");
         System.out.println(lines);
@@ -73,3 +73,4 @@ public class customPartnerQuestion {
         }
     }
 }
+
